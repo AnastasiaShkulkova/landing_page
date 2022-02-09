@@ -1,0 +1,48 @@
+.footer {
+  .container {
+    @include flex-around;
+    margin-top: 42px;
+  }
+
+  &__nav {
+    @include flex-between;
+    max-width: 50%;
+    gap: 125px;
+
+    .column__title {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: $md_text;
+      line-height: 30px;
+      color: $primary_font_color;
+      margin-bottom: 20px;
+    }
+
+    .list__item {
+      padding-bottom: 10px;
+    }
+
+    .item__link {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: normal;
+      font-size: $sm_text;
+      line-height: 30px;
+      color: $secondary_font_color;
+    }
+  }
+
+  &__info {
+    max-width: 340px;
+  }
+  
+  .info__copy {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $sm_text;
+    line-height: 30px;
+    color: #afb5c0;
+  }
+}

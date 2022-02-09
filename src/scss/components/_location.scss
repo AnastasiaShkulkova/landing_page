@@ -1,0 +1,13 @@
+.location__sponsors {
+  margin-top: 70px;
+  @include flex-between;
+}
+
+.location__image{
+  max-width: 100%;
+}
+
+.sponsors__image {
+  max-width: 100%;
+  height: 100%;
+}

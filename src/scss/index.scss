@@ -1,0 +1,13 @@
+@import "./config/base";
+@import "./config/reset";
+@import "./config/variables";
+@import "./config/typography";
+@import "./config/mixins";
+
+@import "./components/header";
+@import "./components/about";
+@import "./components/tariffs";
+@import "./components/location";
+@import "./components/feedback";
+@import "./components/footer";
+@import "./config/media";

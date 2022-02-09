@@ -1,0 +1,41 @@
+.about .container {
+  @include flex-between;
+}
+
+.about {
+  margin-bottom: 210px;
+
+  &__features {
+    max-width: 430px;
+    margin-top: 50px;
+  }
+}
+
+.features__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $lg_text;
+  line-height: 50px;
+}
+
+.about .repeating__subtitle {
+  margin: 20px 0;
+}
+
+.list__item {
+  display: flex;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $xs_text;
+  line-height: 30px;
+  color: $secondary_font_color;
+  padding-bottom: 15px;
+}
+
+.item__image {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}

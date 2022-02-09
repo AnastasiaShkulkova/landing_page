@@ -1,0 +1,125 @@
+@media screen and (max-width: 400px) {
+  .header {
+    .menu {
+      display: none;
+    }
+    .nav__registration {
+      display: none;
+    }
+    .nav__burger {
+      display: block;
+    }
+    .hero {
+      .hero__desc {
+        text-align: center;
+        .hero__title {
+          font-size: 30px;
+          line-height: 50px;
+        }
+      }
+      .header__image {
+        display: none;
+      }
+    }
+    .header__statistics {
+      flex-direction: column;
+      padding: 0 20px;
+      margin-bottom: 30px;
+    }
+    .header__statistics > div:not(:last-child) {
+      border-right: 0;
+      border-bottom: 2px solid #dddddd;
+    }
+  }
+  .main {
+    .section__title {
+        margin: 50px 0 30px;
+        max-width: 100%;
+        text-align: center;
+
+    }
+    .about {
+        margin-bottom:0;
+      .container {
+          text-align: center;
+        .about__image {
+          display: none;
+        }
+        .features__title {
+            font-size: 25px;
+        }
+        .features__list {
+            .list__item {
+                align-items: center;
+                padding-left: 20%;
+            }
+        }
+      }
+    }
+    .tariffs {
+        &__cards {
+            flex-direction: column;
+            .cards__item:not(:first-child) {
+                margin-top: 30px;
+            }
+        }
+    }
+    .location{
+        &__sponsors {
+            flex-direction: column;
+            align-items: center;
+            .sponsors__image {
+                max-width: 65%;
+                margin-top: 30px;
+            }
+        }
+    }
+    .feedback {
+        &__cards {
+            flex-direction: column;
+            .cards__item {
+            max-width: 100%;
+            }
+            .cards__item:not(:first-child) {
+            margin-top: 30px;
+            }
+        }
+        &__slider {
+            display: none;
+        }
+        &__subscribe {
+            text-align: center;
+            margin-top: 30px;
+            padding: 30px 50px;
+            flex-direction: column;
+            .offer__title {
+                font-size: 25px;
+                line-height: 35px;
+            }
+            .subscribe__link {
+                margin-top: 10px;
+            }
+        }
+    }
+  }
+  .footer {
+      .container {
+          flex-direction: column;
+        .footer__info {
+            .info__socials {
+                margin: 0 auto;
+            }
+        }
+        .footer__nav {
+            flex-wrap: wrap;
+            max-width: 100%;
+            margin-top: 10px;
+            gap: 30px;
+            .nav__column {
+                max-width: 40%;
+            }
+        }
+      }
+  }
+  
+}
